@@ -58,8 +58,8 @@ class PID:
     def setKp(self, proportional_gain):
         self.Kp = proportional_gain
         
-        self.Ki = integral_gain
     def setKi(self, integral_gain):
+        self.Ki = integral_gain
         
     def setKd(self, derivative_gain):
         self.Kd = derivative_gain
